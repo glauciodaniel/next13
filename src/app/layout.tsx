@@ -15,7 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head />
+      <body className={inter.className}>
+        {/* <h1>Isto deve aparecer em todas as páginas</h1> */}
+        {children}
+        </body>
     </html>
   )
 }
